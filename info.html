@@ -70,4 +70,26 @@
     Redy: Redy is funny I even took him in the pool I think he liked it or maybe he hated it, but I wouldn't do it now. <br> <br>
     Pinky: I would not say he is a very good guy if I am being honest. I have noticed some things going on with him that I would rather not get into. He is related to Redy Colour which is something. Other than that I am not really sure what else to say about him at this point.
   </p>
-</body>
+<div style="background:#111;padding:20px;border:2px solid #00aaff;border-radius:10px;max-width:400px;margin-top:40px;">
+<h2 style="margin:0;">Rubber ID Checker</h2>
+<p>Enter measurements to identify the family:</p>
+<label>Height (cm):</label><br>
+<input type="number" id="height" step="0.01" style="width:100%;margin:5px 0;padding:5px;border-radius:5px;border:1px solid #444;background:#222;color:white;"><br>
+<label>Width (cm):</label><br>
+<input type="number" id="width" step="0.01" style="width:100%;margin:5px 0;padding:5px;border-radius:5px;border:1px solid #444;background:#222;color:white;"><br>
+<button onclick="idR()" style="background:#00aaff;color:white;border:none;padding:12px;width:100%;font-weight:bold;cursor:pointer;border-radius:5px;margin-top:10px;">RUN SCAN</button>
+<p id="res" style="margin-top:20px;font-weight:bold;color:#00aaff;"></p>
+</div>
+<script>
+function idR(){
+const h=parseFloat(document.getElementById('height').value);
+const w=parseFloat(document.getElementById('width').value);
+const r=document.getElementById('res');
+if(isNaN(h)||isNaN(w)){r.innerHTML="It can't be dust";return;}
+if(h==3||w==2.25){r.innerHTML="RESULT: Congrats it's a Rupti.";}
+else if(h==4&&w==2){r.innerHTML="RESULT: Might be Cratel or Bozeo.";}
+else if(h==2&&w==2){r.innerHTML="RESULT: Colour family or a cut rubber.";}
+else if(h>4){r.innerHTML="RESULT: That's a Giant, or just a big eraser.";}
+else{r.innerHTML="RESULT: Not sure what that is.";}}
+</script>
+
