@@ -1,5 +1,3 @@
-# The Rubbers and Giants
-
 
 ## Chapter 1: In the past ##
 One day a few years ago in another world, there was an additional species named the Rubbers, which are a "Large" school eraser with a smile face or dots on it to make it alive usually having a green purple or no sleeve and instead of humans they had Giants, which are just humans but with a different name because of them being named by rubbers instead of naming themself meaning that Human is the scientific name and Giant is the normal. The appearance of Rubber City is a dirt floor with a bunch of Big Rocks that are used as the foundation of Rubber City, houses are built on top of the rocks. Life in Rubber City was normal for most rubbers, not much would happen.
