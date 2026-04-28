@@ -18,3 +18,10 @@
       margin-top: 30px;
       color: white;
     }
+@font-face {
+  font-family: 'Latin CG Bold';
+  src: url('fonts/font1.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
