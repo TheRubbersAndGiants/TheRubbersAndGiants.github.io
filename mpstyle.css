@@ -68,3 +68,23 @@ button:hover {
   border-bottom: 1px solid #00ff00;
   background-color: #004400;
 }
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background: #fff;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+}
