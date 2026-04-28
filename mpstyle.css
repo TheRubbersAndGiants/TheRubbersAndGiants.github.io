@@ -68,3 +68,49 @@ button:hover {
   border-bottom: 1px solid #00ff00;
   background-color: #004400;
 }
+
+.menu-control, .hamburger-icon {
+  display: none;
+}
+
+.menu-links {
+  text-align: center;
+  padding: 10px;
+}
+
+.menu-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .hamburger-icon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .hamburger-icon span {
+    display: block;
+    height: 3px;
+    background: black;
+    margin: 5px 0;
+  }
+
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+  }
+
+  .menu-links a {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .menu-control:checked ~ .menu-links {
+    display: flex;
+  }
+}
