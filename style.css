@@ -48,7 +48,7 @@ h1, h2 {
 button {
   background-color: #002200;
   color: #00ff00;
-  padding: 10px 20px;
+  border-radius: 8px;
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
