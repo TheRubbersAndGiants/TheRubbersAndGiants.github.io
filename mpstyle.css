@@ -52,3 +52,19 @@ a:hover {
       width: 100%;
       object-fit: cover;
     }
+
+button {
+  background-color: #002200;
+  color: #00ff00;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: 1px solid white;
+}
+
+button:hover {
+  color: white;
+  border-bottom: 1px solid #00ff00;
+  background-color: #004400;
+}
