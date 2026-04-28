@@ -19,6 +19,13 @@ a {
   font-family: sans-serif;
   font-weight: bold;
   margin-right: 15px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: white;
+  border-bottom: 1px solid #00ff00;
 }
 
 h1, h2 {
@@ -31,4 +38,9 @@ strong {
   margin-top: 30px;
   font-family: 'Latin CG Bold', sans-serif;
   color: white;
+}
+
+h1, h2 {
+  color: white;
+  letter-spacing: 1px;
 }
