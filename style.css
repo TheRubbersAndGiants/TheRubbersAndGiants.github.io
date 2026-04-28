@@ -1,29 +1,33 @@
-    body {
-      background-color: black; 
-      color: white; 
-      font-family: 'Latin CG Bold', sans-serif;
-      margin: 20px; 
-    }
-    a {
-      color: #00ff00;
-      text-decoration: none;
-      font-weight: bold;
-      margin-right: 15px;
-    }
-    h1 {
-      margin-top: 30px;
-      font-family: 'Latin CG Bold', sans-serif;
-      color: white;
-    }
-    h2 {
-      margin-top: 30px;
-      font-family: 'Latin CG Bold', sans-serif;
-      color: white;
-    }
 @font-face {
   font-family: 'Latin CG Bold';
   src: url('fonts/font1.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  background-color: black; 
+  color: white; 
+  font-family: 'Latin CG Bold', sans-serif;
+  margin: 20px; 
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+h1, h2 {
+  margin-top: 30px;
+  font-family: 'Latin CG Bold', sans-serif;
+  color: white;
+}
+
+strong {
+  margin-top: 30px;
+  font-family: 'Latin CG Bold', sans-serif;
+  color: white;
 }
