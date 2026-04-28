@@ -21,6 +21,7 @@ a {
   margin-right: 15px;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease-in-out;
+  border-radius: 3px;
 }
 
 a:hover {
