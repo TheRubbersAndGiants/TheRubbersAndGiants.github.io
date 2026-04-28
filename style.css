@@ -44,3 +44,14 @@ h1, h2 {
   color: white;
   letter-spacing: 1px;
 }
+    button {
+      background-color: green;
+      color: #00ff00;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s ease-in-out;
+    }
+
+button:hover {
+  color: white;
+  border-bottom: 1px solid #00ff00;
+}
