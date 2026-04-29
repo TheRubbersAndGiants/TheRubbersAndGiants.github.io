@@ -5,7 +5,5 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => {
       menu.classList.toggle('show');
     });
-  } else {
-    console.error("Menu or Button ID not found. Check your HTML IDs!");
   }
 });
