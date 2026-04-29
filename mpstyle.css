@@ -68,3 +68,29 @@ button:hover {
   border-bottom: 1px solid #00ff00;
   background-color: #004400;
 }
+.hamburger-btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-btn img {
+  display: block;
+}
+
+#navMenu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
+
+#navMenu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
