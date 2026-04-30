@@ -60,3 +60,28 @@ button:hover {
   border-bottom: 1px solid #00ff00;
   background-color: #004400;
 }
+
+#navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  z-index: 1000;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  transition: all 0.4s ease;
+  
+  background: #000000;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  list-style: none;
+}
+
+#navMenu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
