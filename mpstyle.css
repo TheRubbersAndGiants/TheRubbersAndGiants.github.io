@@ -75,7 +75,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: auto;
-  min-height: 80px;
+  min-height: 40px;
   background: #000000;
   z-index: 999;
   display: flex;
