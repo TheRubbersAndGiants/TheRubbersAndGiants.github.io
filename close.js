@@ -1,10 +1,9 @@
-document.querySelectorAll('h1').forEach(header => {
+document.querySelectorAll('h1, h2').forEach(header => {
     header.style.cursor = "pointer";
-    header.title = "Click to expand/collapse";
-
     header.addEventListener('click', () => {
         let next = header.nextElementSibling;
-        while (next && next.tagName !== 'H1') {
+        
+        while (next && next.tagName !== 'H1' && next.tagName !== 'H2') {
             if (next.style.display === "none") {
                 next.style.display = "block";
             } else {
