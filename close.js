@@ -1,9 +1,9 @@
-document.querySelectorAll('h1, h2').forEach(header => {
+document.querySelectorAll('h1').forEach(header => {
     header.style.cursor = "pointer";
     header.addEventListener('click', () => {
         let next = header.nextElementSibling;
-        
-        while (next && next.tagName !== 'H1' && next.tagName !== 'H2') {
+
+        while (next && next.tagName !== 'H1') {
             if (next.style.display === "none") {
                 next.style.display = "block";
             } else {
