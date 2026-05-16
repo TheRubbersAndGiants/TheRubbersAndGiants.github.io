@@ -5,14 +5,9 @@ document.querySelectorAll('h1, h2').forEach(header => {
         let next = header.nextElementSibling;
         const stopTags = isH1 ? ['H1'] : ['H1', 'H2'];
         const isOpening = !next || next.style.display === "none";
-
         while (next && !stopTags.includes(next.tagName)) {
             if (isOpening) {
-                if (isH1 && next.tagName === 'H2') {
-                    next.style.display = "block";
-                } else if (!isH1) {
-                    next.style.display = "block";
-                }
+                next.style.display = "block";
             } else {
                 next.style.display = "none";
             }
