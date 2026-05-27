@@ -63,10 +63,10 @@ button:hover {
 
 th1-f {
   display: block;
-  font-size: 1.5em !important;
+  font-size: 2em !important;
   font-weight: bold;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
 }
 
 #navMenu {
