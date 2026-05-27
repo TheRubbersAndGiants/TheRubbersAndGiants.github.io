@@ -61,6 +61,14 @@ button:hover {
   background-color: #004400;
 }
 
+th1-f {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
 #navMenu {
   position: fixed;
   top: 0;
