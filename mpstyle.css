@@ -7,4 +7,5 @@ body {
   display: block;
   width: 100%;
   object-fit: cover;
+  position: fixed; bottom: 0; left: 0;
 }
