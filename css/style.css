@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'OPTILatin-Bold';
-  src: url('fonts/OPTILatin-Bold.woff') format('woff');
+  src: url('../fonts/OPTILatin-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
