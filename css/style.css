@@ -110,3 +110,9 @@ button:hover {
   width: 24px;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  #navMenu {
+    flex-direction: column;
+  }
+}
