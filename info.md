@@ -93,7 +93,8 @@ Yobro Colzo: 16
 
 Rubber Personalities & Pronouns  
 _Lore Important Characters_
-=============================================================
+
+
 
 Joe Bozeo
 ---------
